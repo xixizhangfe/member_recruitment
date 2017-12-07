@@ -1,0 +1,228 @@
+.next_arrow{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0.4rem;
+	width: 0.37rem;
+	height: 0.2rem;
+	background: url(../img/i7.png) no-repeat;
+	background-size: 100% auto;
+}
+.appearing{
+	animation: appearing 0.5s linear forwards;
+	-webkit-animation: appearing 0.5s linear forwards;
+}
+@keyframes appearing {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}			
+}
+@-webkit-keyframes appearing {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}			
+}
+.floating{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translate(0, 0);	
+	}
+	50% {
+		transform: translate(0,0.2rem);	
+	}	
+	100% {
+		transform: translate(0,0);
+	}			
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translate(0,0);	
+	}
+	50% {
+		-webkit-transform: translate(0,0.2rem);	
+	}	
+	100% {
+		-webkit-transform: translate(0,0);
+	}			
+}
+.rotating{
+	animation: rotating 2.5s linear infinite;
+	-webkit-animation: rotating 2.5s linear infinite;
+}
+
+@keyframes rotating {
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}					
+}
+
+@-webkit-keyframes rotating {
+	from{
+		-webkit-transform: rotate(0deg);
+	}
+	to{
+		-webkit-transform: rotate(360deg);
+	}		
+}
+
+.printDown{
+	animation: printDown 0.5s linear forwards;
+	-webkit-animation: printDown 0.5s linear forwards;
+	
+}
+
+@keyframes printDown {
+	from{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	to {
+		position: absolute;
+		top: 20rem;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+@-webkit-keyframes printDown {
+	from{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	to {
+		position: absolute;
+		top: 20rem;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+.printLeft{
+	animation: printLeft 0.5s linear forwards;
+	-webkit-animation: printLeft 0.5s linear forwards;
+	
+}
+@keyframes printLeft {
+	from{
+		left: 0;
+	}
+	to {
+		left: -20rem;
+	}
+}
+@-webkit-keyframes printLeft {
+	from{
+		left: 0;
+	}
+	to {
+		left: -20rem;
+	}
+}
+.printRight{
+	animation: printRight 0.5s linear forwards;
+	-webkit-animation: printRight 0.5s linear forwards;
+	
+}
+@keyframes printRight {
+	from{
+		left: 0;
+	}
+	to {
+		left: 20rem;
+	}
+}
+@-webkit-keyframes printRight {
+	from{
+		left: 0;
+	}
+	to {
+		left: 20rem;
+	}
+}
+.printTop{
+	animation: printTop 0.5s linear forwards;
+	-webkit-animation: printTop 0.5s linear forwards;
+	
+}
+@keyframes printTop {
+	from{
+		background-position: 0 5rem;
+	}
+	to {
+		background-position: 0 0;
+	}
+}
+@-webkit-keyframes printTop {
+	from{
+		background-position: 0 5rem;
+	}
+	to {
+		background-position: 0 0;
+	}
+}
+.changeLarge{
+	animation: changeLarge 0.5s linear forwards;
+	-webkit-animation: changeLarge 0.5s linear forwards;
+}
+@keyframes changeLarge {
+	from{
+		width: 0;
+	}
+	to{
+		width: 2.11rem;
+	}
+}
+@-webkit-keyframes changeLarge {
+	from{
+		width: 0;
+	}
+	to{
+		width: 2.11rem;
+	}
+}
+.changeLarge2{
+	animation: changeLarge2 0.5s linear forwards;
+	-webkit-animation: changeLarge2 0.5s linear forwards;
+}
+@keyframes changeLarge2 {
+	from{
+		width: 0;
+	}
+	to{
+		width: 6.35rem;
+	}
+}
+@-webkit-keyframes changeLarge2 {
+	from{
+		width: 0;
+	}
+	to{
+		width: 6.35rem;
+	}
+}

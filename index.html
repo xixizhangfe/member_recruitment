@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8" /> 
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta content="telephone=no" name="format-detection"/>
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="#ffffff" name="msapplication-TileColor" />
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+	<title>京东会员招募</title>
+	<link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+	<script>
+		var deviceWidth = document.documentElement.clientWidth;
+		if(deviceWidth > 640){
+			deviceWidth = 640;
+		} else if(deviceWidth < 320){
+			deviceWidth = 320;
+		} 
+		document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+	</script>
+</head>
+<body>
+	<div class="loading">
+		<div class="loading_wrap">
+			<i class="load_img"></i>
+			<div class="load_progress_wrap">
+				<div class="load_progress"></div>
+			</div>
+		</div>
+	</div>
+	<audio id="music" src="./plugin/yunnanxing.mp3"></audio>
+	<audio id="music_text" src="./plugin/music_text.mp3"></audio>
+	<div class="container">
+		<div class="swiper-container">
+		  <div class="swiper-wrapper">
+		  	<!-- 首页 -->
+		    <div class="swiper-slide p1">
+		      	<div class="i_wrap">
+		      		<i class="i_flag"></i>
+		      		<i class="i_text"></i>
+		      	</div>
+		      	<p class="text_1">
+		      		20000京享值及以上会员或PLUS会员
+					<br>
+		      		专享福利
+		      	</p>
+		      	<div class="box_animate floating">
+		      		<p class="text_2">
+			      		这群超酷的怪咖在等你
+			      	</p>
+			      	<i class="next_arrow_1"></i>
+		      	</div>
+		      	
+		    </div>
+		    <!-- 首页 -->
+
+		    <!-- 人物1 -->
+		    <div class="swiper-slide p2" id="J-swiper-scene-2">
+		      	{%widget name="person_page" data='{"name": "苏苏", "text": "闲静似娇花照水，行动如风行雷厉的设计女神","type": "PLUS会员"}'%}
+		    </div>
+		    <!-- 人物1 -->
+		    <!-- 人物2 -->
+		    <div class="swiper-slide p3" id="J-swiper-scene-3">
+		      {%widget name="person_page" data='{"name": "米斯特.九", "text": "可以欢声笑语，也可以声泪俱下的段子手", "type": "京享值20000+"}'%}
+		    </div>
+		    <!-- 人物2 -->
+		    <!-- 人物3 -->
+		    <div class="swiper-slide p4" id="J-swiper-scene-4">
+		      	<i class="i_music active rotating"></i>
+				<div class="i_ink_1"></div>
+				<div class="ink_mask_1"></div>
+				<div class="i_ink_2"></div>
+				<div class="ink_mask_2"></div>
+				<div class="i_bg_text"></div>
+				<div class="i_person"></div>
+				<div class="box_desc">
+					<i class="i_avatar1"></i>
+					<span class="box_right">
+						<div class="box_say">
+							<div class="box_say_text">我，在云南等你</div>
+						</div>
+						<div class="box_intro">
+							<span class="text_style_1">小为</span>
+							<span class="text_style_2">一心画插画，一不小心成了KOL的文艺女青年</span>
+							<span class="text_style_3">PLUS会员</span>
+						</div>
+					</span>
+					
+				</div>
+				<i class="next_arrow floating"></i>
+		    </div>
+		    <!-- 人物3 -->
+		    <!-- 人物4 -->
+		    <div class="swiper-slide p5" id="J-swiper-scene-5">
+		      {%widget name="person_page" data='{"name": "阿旭", "text": "一位能让相片说谎的自由摄影师", "type": "京享值20000+"}'%}
+		    </div>
+		    <!-- 人物4 -->
+		    <!-- 人物5 -->
+		    <div class="swiper-slide p6" id="J-swiper-scene-6">
+		      <i class="i_music active rotating"></i>
+				<div class="i_ink_1"></div>
+				<div class="ink_mask_1"></div>
+				<div class="i_bg_text"></div>
+				<div class="i_person"></div>
+				<div class="i_ink_2"></div>
+				<i class="next_arrow floating"></i>
+		    </div>
+		    <!-- 人物5 -->
+		    <!-- 报名页 -->
+		    <div class="swiper-slide p7" id="J-swiper-scene-7">
+		    	<div class="box_wrap">
+		    		<div class="box_joy">
+				      	<p class="box_title">
+				      		京东会员免费云南自驾之旅
+					      	<br/>
+					      	火热招募中 
+				      	</p>
+				    </div>
+					<div class="box_act">
+						<h1 class="act_subtitle">报名要求</h1>
+						<p class="act_cont">
+						20000京享值及以上会员或PLUS正式会员；<br/>
+						无心脏病、高血压等疾病；<br/>
+						拥有5年以上驾龄或户外经验丰富者优先。 	
+						</p>
+					</div>
+					<div class="box_act">
+						<h1 class="act_subtitle">活动安排</h1>
+						<div class="act_cont">
+							<div class="cont_top">
+								<span class="top_text">报名开始</span>
+								<span class="top_text">报名截止</span>
+								<span class="top_text">启程出发</span>
+								<span class="top_text">活动结束</span>
+							</div>
+							<div class="cont_mid"></div>
+							<div class="cont_bottom">
+								<span class="bottom_text">9.30</span>
+								<span class="bottom_text">10.30</span>
+								<span class="bottom_text">11.13</span>
+								<span class="bottom_text">11.23</span>
+							</div>
+						</div>
+						<div class="act_foot">
+							注：参与人员统一北京出发，活动结束后统一返回北京。
+						</div>
+					</div>
+					<div class="box_act">
+						<h1 class="act_subtitle">活动规则</h1>
+						<div class="act_cont">
+							<div class="para">
+								<span class="para_index">1、</span>
+								<p class="para_c">
+								点击活动页面参与报名。报名成功后，我们会进行第一轮会员筛选，成功入选的会员会接收短信通知，请按照短信要求参与复选活动。
+								</p>
+							</div>
+							<div class="para">
+								<span class="para_index">2、</span>
+								<p class="para_c">
+								成功入选的会员，需全程服从京东工作人员安排，不得中途退出，承诺身体健康状况等符合本次活动要求。
+								</p>
+							</div>
+							<div class="para">
+								<span class="para_index">3、</span>
+								<p class="para_c">
+								请保持联系方式畅通，如出现电话短信不畅，视为自动放弃参与。
+								</p>
+							</div>
+							<div class="para">
+								<span class="para_index">4、</span>
+								<p class="para_c">
+								本次活动费用由京东承担。
+								</p>
+							</div>
+						</div>
+					</div>
+		    	</div>
+		    	<a class="box_btn" href="//vip.m.jd.com/index.html?appName=fuli&id=999&sid=cc88c05301af19f4e29d31590fab04aa">
+					立即报名
+				</a>
+		    </div>
+		    <!-- 报名页 -->
+		  </div>
+		</div>
+		<i class="i_music active rotating"></i>
+	</div>
+	<script src="./js/zepto.min.js"></script>
+	<script src="./js/swiper.min.js"></script>
+	<script src="./js/index.js"></script>
+</body>
+</html>

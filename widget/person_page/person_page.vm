@@ -1,0 +1,20 @@
+<div class="i_ink"></div>
+<div class="ink_mask"></div>
+<div class="i_bg_text"></div>
+<div class="i_person"></div>
+<div class="box_desc">
+	<i class="i_avatar1"></i>
+	<span class="box_right">
+		<div class="box_say">
+			我，在云南等你
+		</div>
+		
+		<div class="box_intro">
+			<span class="text_style_1">$name</span>
+			<span class="text_style_2">$text</span>
+			<span class="text_style_3"><span class="i_type"></span>$type</span>
+		</div>
+	</span>
+	
+</div>
+<i class="next_arrow floating"></i>
