@@ -14,7 +14,7 @@ Please install jdf from https://github.com/jdf2e/jdf.
 - install jdf <br/>
 `npm install jdfx -g`
 - clone the project <br/>
-`https://github.com/xixizhangfe/member_recruitment.git`
+`git clone https://github.com/xixizhangfe/member_recruitment.git`
 - start the project <br/>
 `jdf b -o`
 - you can see the result in the browser, and open the developer tools, then click the toggle device toolbar.
